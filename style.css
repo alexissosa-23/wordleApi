@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url('https://c8.alamy.com/compes/2fh32r7/nino-pensando-preguntandose-calculando-considerando-la-expresion-cartoon-2fh32r7.jpg');
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#guess-input {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    border: 1px solid #ccc;
+}
+
+#guess-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0CBABA;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.letter {
+    border: 1px solid black;
+    padding: 3px;
+    margin: 3px;
+    min-width: 20px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+.input-area {
+    margin: 30px;
+}
+
+#retry-button {
+    display: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0CBABA;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
